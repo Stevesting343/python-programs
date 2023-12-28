@@ -213,9 +213,7 @@
 
 # list1 = [101,201,23]
 # # output:[11,21,23]
-#
-#
-#
+
 # for i in range(len(list1)):
 #
 #     list1[i] = int(''.join(str(list1[i]).split("0")))
@@ -284,8 +282,8 @@
 #
 # l = ["Alex", "Bob", "Carol", "Dave", "Flow", "Katie", "Nate"]
 #
-# # print({l[i]: i + 1 for i in range(len(l))})
-#
+# print({l[i]: i + 1 for i in range(len(l))})
+# #
 #
 # print({chr(65+i): chr(97+i) for i in range(26)})
 #
@@ -1083,3 +1081,19 @@ str1 = 'aabdb'
 #     dice[i] = couter
 #     couter += 1
 # print(dice)
+
+
+# reverse
+# str1 = 'dheeraj'
+# str2 = ''
+# for i in range(len(str1) - 1, -1, -1):
+#     print(str1[i], end='')
+#
+# print(str2)
+
+
+# str1 = 'dheeraj'
+# str2 = ''
+# for i in range(len(str1) - 1, -1, -1):
+#     str2 = str2 + str1[i]
+# print(str2)

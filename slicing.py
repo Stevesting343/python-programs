@@ -27,7 +27,7 @@ print("company_name:-"+company_name)
 # print(word[:])
 # print(word[::2])
 # print(word[::-2])
-# print(word[8:3:-1])  #print empty it first revwers beacuse -1 and count reversly
+# print(word[8:3:-1])  #print empty it first revers beacuse -1 and count reversly
 # print(word[::2])
 # print(hii)
 # print(na)
